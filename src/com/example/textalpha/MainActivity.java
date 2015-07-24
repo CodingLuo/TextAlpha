@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		alphaAnimation.setDuration(1000);// 1000是渐变时间 单位是 毫秒
 		alphaAnimation.setFillAfter(true);
 		alphaAnimation.setFillEnabled(true);
-		alphaAnimation.setFillBefore(false);
+		//alphaAnimation.setFillBefore(false);
 		txt.setAnimation(alphaAnimation);
 	}
 }
